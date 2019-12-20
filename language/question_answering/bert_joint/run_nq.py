@@ -175,7 +175,7 @@ flags.DEFINE_integer(
 
 TextSpan = collections.namedtuple("TextSpan", "token_positions text")
 
-
+#特殊的处理
 class AnswerType(enum.IntEnum):
   """Type of NQ answer."""
   UNKNOWN = 0
